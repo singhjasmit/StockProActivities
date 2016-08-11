@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">StockPro</string>
+    <string name="manage_portfolio">My Portfolio</string>
+    <string name="settings">Settings</string>
+
+    <string name="hint_symbol">Symbol</string>
+    <string name="hint_qty">Qty</string>
+
+    <string name="add">Add</string>
+    <string name="del">Del</string>
+    <string name="list">List</string>
+    <string name="more">More</string>
+    <string name="less">Less</string>
+    <string name="save">Save</string>
+
+    <string name="qty">%1$d of %2$s</string>
+    <string name="price">$ %1$s</string>
+    <string name="change">(%1$s)</string>
+    <string name="value">Value: $ %1$s</string>
+    <string name="high">52 week high: %1$s</string>
+    <string name="low">52 week low: %1$s</string>
+    <string name="vol">Volume: %1$d</string>
+
+    <string name="microsoft_qty">100 of MSFT</string>
+    <string name="microsoft_price">62.67</string>
+    <string name="microsoft_change">(-0.29)</string>
+    <string name="microsoft_name">Microsoft Corporation</string>
+    <string name="microsoft_value">Value: 6267.00</string>
+
+
+    <string name="refreshed">Refreshed at: 07/12/2016 3:45 PM EST</string>
+    <string name="amazon_symbol">Symbol: AMZN</string>
+    <string name="amazon_pr">Current Price: 464.32</string>
+    <string name="amazon_ch">Change: (+3.29)</string>
+    <string name="amazon_high">52 week high: 672.32</string>
+    <string name="amazon_low">52 week low: 372.23</string>
+    <string name="amazon_vol">Volume: 3200057</string>
+
+
+    <string name="back_sync_title">Background Sync</string>
+    <string name="back_sync_desc">Refresh portfolio every hour</string>
+    <string name="showmore_title">Display More Button</string>
+    <string name="showmore_desc">Show more button to get the details of the company</string>
+    <string name="total_value">Total value: $ %1$s</string>
+
+</resources>

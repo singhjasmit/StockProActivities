@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StockDetailActivity">
+
+    <LinearLayout
+        android:id="@+id/row_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+
+
+        <TextView
+            android:id="@+id/symbol"
+            style="@style/myNormalText"
+            android:text="@string/amazon_symbol"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/myNormalText"
+            android:text="@string/microsoft_name"
+            />
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/myNormalText"
+            android:text="@string/amazon_pr"
+            />
+
+        <TextView
+            android:id="@+id/change"
+            style="@style/myNormalText"
+            android:text="@string/amazon_ch"
+            android:textColor="@color/colorGreen"
+            />
+
+        <TextView
+            android:id="@+id/high"
+            style="@style/myNormalText"
+            android:text="@string/amazon_high"
+            />
+
+        <TextView
+            android:id="@+id/low"
+            style="@style/myNormalText"
+            android:text="@string/amazon_low"
+            />
+
+        <TextView
+            android:id="@+id/vol"
+            style="@style/myNormalText"
+            android:text="@string/amazon_vol"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/row_less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+
+
+    <TextView
+        android:id="@+id/info"
+        style="@style/myNormalText"
+        android:text="@string/amazon_symbol"
+        />
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/btn_list"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorGreen"
+        android:text="@string/list"
+        android:textAllCaps="false"
+
+        android:textColor="@color/colorWhite"
+
+        />
+
+    <Button
+
+        android:id="@+id/btn_more"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorGreen"
+        android:text="@string/more"
+        android:textAllCaps="false"
+
+        android:textColor="@color/colorWhite"
+
+        />
+
+    <Button
+
+        android:id="@+id/btn_less"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorGreen"
+        android:text="@string/less"
+        android:textAllCaps="false"
+
+        android:textColor="@color/colorWhite"
+
+        />
+</RelativeLayout>
+

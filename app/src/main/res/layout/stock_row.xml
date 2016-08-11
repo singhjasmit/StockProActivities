@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/row_qty"
+        style="@style/myNormalText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="5dp"
+        android:text="@string/microsoft_qty"/>
+    <TextView
+        android:id="@+id/row_price"
+        style="@style/myNormalText"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/row_qty"
+        android:text="@string/microsoft_price"/>
+    <TextView
+        android:id="@+id/row_change"
+        style="@style/myChangeDownText"
+        android:layout_toRightOf="@id/row_price"
+        android:text="@string/microsoft_change"/>
+
+    <Button
+
+        android:id="@+id/row_button"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorGreen"
+        android:text="@string/del"
+        android:textColor="@color/colorWhite"
+
+        />
+
+    <TextView
+        android:id="@+id/row_name"
+        style="@style/myNormalText"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/row_qty"
+        android:layout_marginRight="10dp"
+        android:text="@string/microsoft_name"/>
+    <TextView
+        android:id="@+id/row_value"
+        style="@style/myNormalText"
+        android:layout_below="@id/row_qty"
+        android:layout_toRightOf="@id/row_name"
+        android:text="@string/microsoft_value"/>
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+
+        android:layout_below="@id/row_button"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+</RelativeLayout>
